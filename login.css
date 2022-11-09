@@ -1,0 +1,70 @@
+<!doctype html>
+
+
+
+
+
+<head>
+<style>
+body,html{
+  height: 100%;
+  overflow: hidden;
+  
+  background-size: cover;
+}
+
+
+
+.l-form{
+  background-color:lightblue;
+  border-radius:12px;
+  padding: 12px;
+}
+
+
+
+.i-form{
+  border-radius:12px;
+  padding: 12px;
+}
+</style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   
+    <title>Login</title>
+</head>
+
+
+
+<body>
+  <div class="row align-items-center h-100 ">
+      <div class="col-8 col-md-3 col-xs-8 mx-auto l-form">
+          <form>
+              
+              <div class="form-group">
+<label for="usuario">USUÁRIO</label>
+                  <input type="text" name="email" placeholder="medaum10prof@gmail.com" class="form-control i-form">
+              </div>
+              <div class="form-group">
+<label for="password">SENHA</label>
+                  <input type="password" name="password" placeholder="********" class="form-control i-form">
+              </div>
+              <div class="form-group">
+  <p> 
+            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+            <label for="manterlogado">Manter-me logado</label>
+          </p>
+                  <button type="button" class="btn btn-dark btn-md btn-block">Login</button>
+    <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+              </div>
+          </form>
+      </div>
+  </div>
+</body>
+
+
+
+</html>
